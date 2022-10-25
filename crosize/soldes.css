@@ -4,6 +4,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    text-decoration: none;
 }
 
 main{
@@ -231,8 +232,6 @@ nav li:hover .sous-menu {
     font-family: 'Roboto',sans-serif;
 }   
 
- margin-top: 0px;
-}
 
 
 div a {
