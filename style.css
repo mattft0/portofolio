@@ -9,7 +9,6 @@ html {
     -webkit-text-size-adjust: 100%;
     scroll-behavior: smooth;
 }
-
 body::-webkit-scrollbar {
     display: none;
 }
@@ -2647,8 +2646,13 @@ figcaption {
 .name-text {
     font-family: Montserrat, sans-serif;
     font-size: 50px;
-    line-height: 34px;
+    line-height: 50px;
     font-weight: 500;
+    background-image: url(./img/gif.gif);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .position-name-text {
